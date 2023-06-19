@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Projects</title>
+  <!-- bootstrap -->
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-NbxYueY5/cTb+XWgjbMvZ2MvPfHKjKMWvVlWNo2vY5O/7p1lDNFcaq9yLaM3zmtJ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c69bcf8a12.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<!-- Custom JavaScript for Navbar Funcitonality-->
+<script>
+    $(document).ready(function() {
+      $('.navbar-toggler').click(function() {
+        $('#myNavbarToggler7').toggleClass('show');
+      });
+    });
+  </script>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+          aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbarToggler7">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bdpetersen13.github.io/ePortfolio-snhu/index.html">About Me</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footerProject">Contact</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="topContainer">
+          <h1 class="project-name">University Projects</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects -->
+
+<section id="projects">
+    <div class="projects-container">
+      <h2 class="headerProjects">Projects</h2>
+      <div class="row">
+        <div class="col">
+          <div class="project-item">
+            <img class="mobileApp" src="images/Control_Your_Inventory.jpg" alt="Mobile-App">
+            <h3>Control Your Inventory: Mobile Application</h3>
+            <div class="project-desc-app">
+              <p>Control Your Inventory is an impressive Android application designed to revolutionize inventory management. Developed as part of the CS360: Mobile Architecture & Development course at Southern New Hampshire University, this application showcases my proficiency in Java programming and SQLite database management, along with my understanding of database concepts and user interface design.</p>
+              <p>With a visually appealing and intuitive UI, Control Your Inventory enables small and medium-sized businesses to track and manage their inventory efficiently. The application features a login screen, a comprehensive data display screen with a user-friendly grid for database information, and a settings tab that offers an SMS notification option. Users can now receive alerts when inventory levels run low, ensuring timely replenishment and preventing stockouts.</p>
+              <p>Driven by user feedback and continuous improvement, Control Your Inventory has evolved to offer advanced functionalities. Users can now seamlessly integrate barcode scanning devices, streamlining the inventory management process. These enhancements have transformed the application into a robust and user-friendly tool, catering to the diverse needs of businesses and organizations.</p>
+              <p>Throughout the development process, I acquired invaluable skills and tackled challenges head-on. I recognized the significance of gathering and documenting functional requirements, design documentation, and business requirements at the project's outset. These essential documents guided the development process, ensuring the application met users' needs. I further refined the program to meet the highest standards by incorporating user feedback and conducting code reviews.</p>
+              <p>Control Your Inventory reflects my expertise in software development, database management, and user interface design but also serves as a testament to my ability to apply these skills in a real-world context. The project has significantly bolstered my capabilities, making it a valuable addition to my ePortfolio.</p>
+              <p>Discover Control Your Inventory today and experience the power of efficient inventory management at your fingertips.</p>
+            </div>
+            <a class="btn" href="https://github.com/bdpetersen13/Control-Your-Inventory">Learn More</a>
+          </div>
+        </div>
+        </div>
+      <div>
+        <div class="col">
+          <div class="project-item">
+            <img class="Course-Sorting" src="images/Sorting.png" alt="Course-Sorting">
+            <h3>Empowewring Academic Advisors</h3>
+            <div class="project-desc">
+              <p>The Empowering Academic Advisors with Streamlines Software Solutions was the final project for CS300: Algorithms & Data Structures at Southern New Hampshire University, SNHU. I was tasked with writing the code for an advising assistance software. The application was designed as a command-line program in C++, and the application efficiently prompts users to input the file name containing course data, which is then read into course objects stored in a chosen data structure. The program boasts a comprehensive menu that allows advisors to navigate various options, including loading data into the structure, sorting and printing a list of courses in alphanumeric order, and accessing detailed course information.</p>
+              <p>With the recent changes to this project, I have implemented significant improvements, beginning with modularization. The codebase has been divided into smaller, manageable functions, enhancing readability, maintainability, and overall structure. Magic numbers have been replaced with named constants, ensuring clarity and facilitating future updates. Robust error handling has been introduced, employing exception handling for seamless management of errors during file operations and CSV parsing. Memory management has been optimized with proper file closure and prevention of resource leaks through exception-handling techniques. In addition, comprehensive comments and documentation have been added, elucidating the purpose and functionality of various functions, enabling future development and collaboration.</p>
+              <p>Through this process, I have gained valuable insights and experiences, realizing the importance of modularization for code maintainability and readability. I have honed my problem-solving skills by overcoming challenges in identifying areas for improvement and seamlessly integrating new functionalities. The significance of thorough error handling and documentation has become apparent, streamlining the user experience and fostering collaboration among developers.</p>
+              <p>This project helps showcase my software development experience and highlights my proficiency in working with various algorithms and data structures. In addition, these changes showcase my proficiency in modularization, error handling, CSV parsing, error reporting, memory management, and documentation. The dedication to continuous improvement is evident, as many areas have been identified for continued enhancement, such as improving the user interface and incorporating additional features to enhance usability and interactivity. Through meticulous attention to detail, I have tailored this application to cater specifically to the needs of academic advisors and their students</p>
+            </div>
+            <a class="btn" href="https://github.com/bdpetersen13/Course-Advisor-Sorting-Algorithm">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="col">
+          <div class="project-item">
+            <img class="Dashboard" src="images/Dashboard.png" alt="MongoDB-Dashboard">
+            <h3>Rescue Rover Dashboard</h3>
+            <div class="project-desc">
+              <p>The Rescue Rover application was designed for the CS360: Client/Server Development course at Southern New Hampshire University, SNHU. For this project, I was tasked with creating a comprehensive software application to assist in identifying and categorizing dogs for search-and-rescue training. The application will help identify optimal candidates based on age, breed, and specialized rescue skills by leveraging data from a non-profit agency's animal shelters.</p>
+              <p>The project includes a full-stack development, a robust database, and a user-friendly web application dashboard. Utilizing the power of MongoDB, Python, and the Dash framework aims to deliver an intuitive interface that minimizes user errors and reduces training time. The project's commitment to openness and collaboration extends to the codebase.</p>
+              <p>With recent changes focusing on enhancing the database portion of the project, making significant improvements to ensure reliability, security, and performance. Syntax errors were rectified, naming conventions were standardized, and extensive error handling was implemented. Encapsulating database operations within try-except blocks prevented potential crashes due to database errors, promoting a seamless user experience. Performance optimization techniques were employed, including returning lists instead of cursor objects and reducing unnecessary database connections. In addition, documentation in the form of docstrings was added to each method, enhancing the code's readability, and facilitating future maintenance.</p>
+              <p>"Rescue Rover" showcases software design and development and highlights my skills in working with databases. Through meticulous database design, I demonstrate my ability to architect a robust structure for storing data from animal shelters. Implementing CRUD functionality, I enable seamless data manipulation and retrieval, ensuring the application interacts effectively with the database. The comprehensive error-handling mechanisms anticipate and gracefully handle potential issues, guaranteeing stability. Leveraging performance optimization techniques, they enhance efficiency by returning lists, reducing unnecessary database connections, and optimizing data access. Attention to security is evident as the program employs best practices, utilizing environment variables to safeguard sensitive information. Additionally, thorough documentation of the program helps to empower future developers to understand and maintain the codebase effortlessly.</p>
+            </div>
+            <a class="btn" href="https://github.com/bdpetersen13/Austin-Animal-Center">Learn More</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+
+  <footer id="footerProject"> 
+    <div class="row footer rowFooter">
+      <div class="copyright col-lg-6">
+        <p>© 2023 Brandon Petersen. All rights reserved.</p>
+      </div>
+      <div class="col-lg-6">
+        <a class="footerLink" href="https://www.linkedin.com/in/bdpetersen13/"><span class="footer-icon fa-brands fa-linkedin-in fa-2x"></span></span></a>
+        <a class="footerLink" href="https://github.com/bdpetersen13"><span class="footer-icon fa-brands fa-github fa-2x"></span></a>
+        <a href="mailto:petersen.brandon@protonmail.com"><span class="footer-icon fa-regular fa-envelope fa-2x"></span></a>
+      </div>
+    </div>
+  </footer>
+
+  </body>

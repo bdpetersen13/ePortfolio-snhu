@@ -1,0 +1,231 @@
+#title {
+    background-color: #0277BD;
+}
+
+/****************************SELECTORS****************************/
+a { 
+    color: #00B0FF;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #CCF2F4;
+}
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1 {
+    margin: 40px auto 0px auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5.625rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #A4EBF3;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #039BE5;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #29B6F6;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: lightgrey;
+    border-width: 7px;
+    width: 10%;
+    margin: 100px auto;
+}
+p {
+    line-height: 2;
+}
+
+/****************************CLASS****************************/
+.btn {
+    background: #0091EA;
+    background-image: -webkit-linear-gradient(top, #0091EA, #0091EA);
+    background-image: -moz-linear-gradient(top, #0091EA, #0091EA);
+    background-image: -ms-linear-gradient(top, #0091EA, #0091EA);
+    background-image: -o-linear-gradient(top, #0091EA, #0091EA);
+    background-image: linear-gradient(to bottom, #0091EA, #0091EA);
+    font-family: 'Montserrat';
+    color: #B3E5FC;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+.bottomCloud {
+    position: absolute;
+    width: 25%;
+    left: 100px;
+    bottom: 350px;
+}
+.bottomKoi {
+    position: absolute;
+    width: 15%;
+    left: 50px;
+    top: 2250px;
+}
+.contactMe {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.contactMessage {
+    margin-bottom: 60px;
+}
+.copyRight {
+    font-size: x-small;
+    color: #CCF2F4;
+    padding: 20px 0px;
+}
+.Course-Sorting {
+    margin-bottom: 50px;
+}
+.Dashboard {
+    width: 75%;
+    padding: 0px 0px 50px 0px;
+}
+.iconData {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+  
+@media (max-width: 768px) {
+    .iconData {
+      width: auto;
+      float: none;
+      display: block;
+      margin: 0 auto 30px;
+    }
+}
+.iconCode {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.iconData:hover {
+    color: #1f628d;
+}
+.iconCode:hover {
+    color: #1f628d;
+}
+.designer {
+    text-decoration: underline;
+}
+.fontLinker {
+    color: #29B6F6;
+}
+.footer {
+    background-color: #0277BD;
+    padding: 50px 0px 5px;
+}
+.headingDescription {
+    font-size: 1.25rem;
+    margin-top: 0px;
+    color: #CCF2F4;
+}
+.headerProjects {
+    padding: 50px 0px 0px 0px;
+    margin-bottom: 50px;
+}
+.intro {
+    width: 40%;
+    margin: auto;
+}
+.natureImg {
+    position: relative;
+    width: 50%;
+    z-index: 4;
+}
+.navigationContainer {
+    background-color: #0277BD;
+    padding: 25px 0px 0px;
+    text-align: right;
+}
+.middleContainer {
+    margin: 100px 0px;
+}
+.mobileApp {
+    width: 50%;
+    padding: 0px 0px 50px 0px;
+}
+.project-desc {
+    text-align: left;
+    padding: 50px 50px;
+}
+.project-desc-app {
+    text-align: left;
+    padding: 50px 50px;
+}
+.project-item {
+    width: 75%;
+    margin: 50px auto 50px auto;
+}
+.project-name {
+    color: #0277BD;
+}
+.rowFooter {
+    margin-top: 50px;
+}
+.skillRow {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.topContainer {
+    background-image: linear-gradient(#0277BD, #0288D1, #039BE5, #81D4FA, #B3E5FC, #E1F5FE, #F4F9F9);
+    padding-top: 100px;
+    position: relative;
+}
+.topCloud {
+    position: absolute;
+    width: 25%;
+    right: 175px;
+    top: 13px;
+}
+.topKoi {
+    position: absolute;
+    width: 15%;
+    right: 50px;
+    top: 1500px;
+}
+.webImg {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.copyright {
+    font-size: small;
+    color: #CCF2F4;
+    padding: 20px 0px;
+}
+
+/* @media (max-width: 1028px) {
+    .middleContainer {
+        p {
+            text-size: 60px;
+        }
+    }
+    #title {
+        text-align: center;
+    }
+} */

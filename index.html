@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Brandon Petersen</title>
+  <!-- bootstrap -->
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-NbxYueY5/cTb+XWgjbMvZ2MvPfHKjKMWvVlWNo2vY5O/7p1lDNFcaq9yLaM3zmtJ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c69bcf8a12.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+          aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbarToggler7">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://bdpetersen13.github.io/ePortfolio-snhu/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+    <!-- Title -->
+
+      <div class="row">
+        <div class="topContainer">
+          <img class="topCloud" src="images/cloud.png" alt="cloud-img">
+          <h1 class="greeting">I'm Brandon!</h1>
+          <p class="headingDescription">Aspiring <span class="designer">Analyst & Developer</span></p>
+          <img class="bottomCloud" src="images/cloud.png" alt="cloud-img">
+          <a id="aboutMe"></a>
+          <img class="natureImg" src="images/nature.png" alt="nature-img">
+      </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Custom JavaScript for Navbar Funcitonality-->
+  <script>
+    $(document).ready(function() {
+      $('.navbar-toggler').click(function() {
+        $('#myNavbarToggler7').toggleClass('show');
+      });
+    });
+  </script>
+
+  <section id="about">
+    <div class="middleContainer">
+      <div class="profile">
+        <img src="images/Brandon.png" alt="profile-img">
+        <h2>Howdy hey.</h2>
+        <p class="intro">I am a student at Southern New Hampshire University, SNHU, majoring in Computer Science with a concentration in Data Analytics.</p>
+        <img class="topKoi" src="images/koi2.png" alt="koi-img">
+      </div>
+      <hr>
+      <div class="skills">
+          <a id="work"></a>
+          <h2>What I can Do.</h2>
+        <div class="skillRow">
+          <i class="iconCode fa-solid fa-code fa-10x"></i>
+          <h3>Design & Development</h3>
+          <p>I am a solution-driven developer adept at contributing to a highly collaborative work environment, finding solutions and determining customer satisfaction. I have proven experience developing websites that use HTML, CSS, and JavaScript—in addition, developing applications that use Java, Kotlin, Swift, C#, and Python that utilize SQL and NoSQL database solutions.</p>
+        </div>
+        <div class="skillRow">
+          <i class="iconData fa-solid fa-circle-nodes fa-10x"></i>
+          <h3>Data Analytics & Data Science</h3>
+          <p>I am a process-oriented individual with analytical data knowledge with experience in interpreting and analyzing data to drive growth for a major retail company. By analyzing and creating reports, I helped increase sales by 5.1% index to plan, reduce operation costs by 8.62% index to plan, and increase overall profit by 3.38% index to plan for FY23.</p>
+        </div>
+        <img class="bottomKoi" src="images/koi1.png" alt="koi-img">
+      </div>
+      <hr>
+      <div class="contactMe">
+        <h2>Contact Me</h2>
+        <h3>I am currently available for freelance work.</h3>
+        <a id="contactMeNow"></a>
+        <p class="contactMessage">If you have a project that you want to start or think you need my help with something, then get in touch.</p>
+        <a class="btn" href="mailto:petersen.brandon@protonmail.com">CONTACT ME</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="row footer">
+      <div class="copyright col-lg-6">
+        <p>© 2023 Brandon Petersen. All rights reserved.</p>
+      </div>
+      <div class="col-lg-6">
+        <a class="footerLink" href="https://www.linkedin.com/in/bdpetersen13/"><span class="footer-icon fa-brands fa-linkedin-in fa-2x"></span></span></a>
+        <a class="footerLink" href="https://github.com/bdpetersen13"><span class="footer-icon fa-brands fa-github fa-2x"></span></a>
+        <a href="mailto:petersen.brandon@protonmail.com"><span class="footer-icon fa-regular fa-envelope fa-2x"></span></a>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
